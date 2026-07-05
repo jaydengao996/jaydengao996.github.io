@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honglu (Jayden) Gao | Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a; /* 深蓝色，代表金融与科技的稳重 */
+            --secondary-color: #3b82f6;
+            --text-dark: #1f2937;
+            --text-light: #4b5563;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 30px;
+            margin-bottom: 35px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+        .contact-info a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        .contact-info a:hover { text-decoration: underline; }
+        
+        section { margin-bottom: 35px; }
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 6px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .summary-text {
+            color: var(--text-light);
+            text-align: justify;
+        }
+        
+        .entry { margin-bottom: 25px; }
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #111827;
+        }
+        .entry-subheader {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+            font-style: italic;
+            color: var(--secondary-color);
+            margin-top: 2px;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+        .date, .location {
+            font-weight: 500;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        ul { padding-left: 20px; color: var(--text-light); }
+        li { margin-bottom: 6px; text-align: justify; }
+        li strong { color: var(--text-dark); }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .skills-title { font-weight: 700; color: var(--text-dark); }
+        .skills-desc { color: var(--text-light); }
+
+        @media (max-width: 640px) {
+            body { padding: 15px 10px; }
+            .container { padding: 25px 20px; }
+            .entry-header, .entry-subheader { flex-direction: column; }
+            .date, .location { margin-top: 2px; margin-bottom: 5px; }
+            .skills-grid { grid-template-columns: 1fr; gap: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>HONGLU (JAYDEN) GAO</h1>
+        <div class="subtitle">Data & Technology Strategy | Financial Innovation</div>
+        <div class="contact-info">
+            <span>📧 <a href="mailto:rickghldw@gmail.com">rickghldw@gmail.com</a></span>
+            <span>📱 (+1) 647-228-9166</span>
+            <span>🔗 <a href="https://www.linkedin.com/in/jaydengao/" target="_blank">linkedin.com/in/jaydengao/</a></span>
+        </div>
+    </header>
+
+    <section id="summary">
+        <h2>Profile Summary</h2>
+        <p class="summary-text">
+            Tech-driven MBA and Master of Finance graduate with 5+ years of regulated financial institution experience specializing in digital channel enablement, data visualization, and technology implementation. Proven track record as a digital ambassador, managing cross-functional stakeholder alignment, simplifying complex problem statements, and delivering data-centric system evaluations. Expert at acting as a tactical liaison between core Data & Technology (D&T) squads and business units to drive tool adoption, design robust Power BI / Tableau architectures, and unlock tangible operational value.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <div>University of British Columbia – Sauder School of Business</div>
+                <div class="date">2024 – 2026</div>
+            </div>
+            <div class="entry-subheader">
+                <div>Master of Business Administration (MBA), Major in Technology & Analytics Leadership</div>
+                <div class="location">Vancouver, BC</div>
+            </div>
+            <ul>
+                <li><strong>Relevant Coursework:</strong> Business Strategy, Data Analytics, Data Visualization, Risk Management, Tech Product Management</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <div>Queen's University – Smith School of Business</div>
+                <div class="date">2022 – 2023</div>
+            </div>
+            <div class="entry-subheader">
+                <div>Master of Finance (MFin)</div>
+                <div class="location">Kingston, ON</div>
+            </div>
+            <ul>
+                <li><strong>Relevant Coursework:</strong> Advanced Financial Modeling (Excel), Corporate Finance, Quantitative Analysis, Portfolio Management</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <div>University of Victoria – Peter B. Gustavson School of Business</div>
+                <div class="date">2014 – 2018</div>
+            </div>
+            <div class="entry-subheader">
+                <div>Bachelor of Commerce (BCom)</div>
+                <div class="location">Victoria, BC</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <div>Community Futures British Columbia</div>
+                <div class="date">Jun 2025 – Sep 2025</div>
+            </div>
+            <div class="entry-subheader">
+                <div>Business Analyst (Full-time Internship)</div>
+                <div class="location">Vancouver, BC</div>
+            </div>
+            <ul>
+                <li><strong>System Evaluation & Tech Upgrade:</strong> Led the comprehensive data workflow mapping, technical benchmarking, and technology recommendation initiative for migrating a legacy Loan Management System (LMS) to an advanced data platform.</li>
+                <li><strong>Data Automation & Scripting:</strong> Developed centralized data-cleaning workflows using Python and architected dynamic risk databases via Power BI and Excel, standardizing operational metrics across 34 offices and reducing reporting latency by 40%.</li>
+                <li><strong>Requirements Gathering Workshops:</strong> Conducted structured interviews and discovery sessions with 15+ regional branch managers to synthesize business pain points, converting qualitative feedback into executive-ready technical recommendations.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <div>Bank of Nova Scotia (Scotiabank)</div>
+                <div class="date">Oct 2021 – May 2023</div>
+            </div>
+            <div class="entry-subheader">
+                <div>Senior Financial Advisor (Full-time)</div>
+                <div class="location">Toronto, ON</div>
+            </div>
+            <ul>
+                <li><strong>Tech Product Implementation:</strong> Appointed as the official Branch Ambassador for new technology platform deployment; spearheaded localized user acceptance insights, change adoption, and branch-wide rollout of core digital applications.</li>
+                <li><strong>Tool Onboarding & Training:</strong> Coached and mentored junior advisors on cutting-edge software tool onboarding and digital feature alignment, ensuring strict data adherence to corporate compliance, governance, and risk mitigation policies.</li>
+                <li><strong>Portfolio Architecture Strategy:</strong> Guided asset operations restructuring and data tracking for a high-value structured portfolio of 500+ premium accounts, expanding base retention and lifting net localized fulfillment metrics by 15%.</li>
+            </ul>
+        </div>
+
+        <div class="entry">
+            <div class="entry-header">
+                <div>Royal Bank of Canada (RBC)</div>
+                <div class="date">Aug 2018 – Oct 2021</div>
+            </div>
+            <div class="entry-subheader">
+                <div>Banking Advisor (Full-time)</div>
+                <div class="location">Victoria, BC</div>
+            </div>
+            <ul>
+                <li><strong>Digital Channel Enablement:</strong> Handpicked as Branch Digital Navigator Ambassador; educated clients and championed internal peer adoption of online and mobile digital banking platforms, driving a 20% acceleration in active digital migration.</li>
+                <li><strong>Journey Mapping & Diagnostics:</strong> Facilitated thousands of structured discovery sales sessions to map front-end user experience friction points, translating operational bottlenecks into actionable optimization requirements for corporate product development squads.</li>
+                <li><strong>Cross-Functional Collaboration:</strong> Partnered directly with technical product enhancement units and backend processing backbones to streamline automated verification pipelines and accelerate complex transaction cycle velocity.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Consulting & Projects Experience</h2>
+        <div class="entry">
+            <div class="entry-header">
+                <div>UBC Sauder MBA Program – Global Immersion Experience (GIE)</div>
+                <div class="date">2025</div>
+            </div>
+            <div class="entry-subheader">
+                <div>Global Consultant</div>
+                <div class="location">Singapore</div>
+            </div>
+            <ul>
+                <li><strong>Dashboard Architecture:</strong> Collaborative consultant within an agile cohort that designed and deployed interactive Power BI data dashboards to track critical performance KPIs for a global brand, capturing over 10% in system-wide cost-efficiencies.</li>
+                <li><strong>Data Validation Frameworks:</strong> Conducted end-to-end process flowcharting and intensive stakeholder interviews to build a structured data validation framework, seamlessly connecting localized sales numbers with corporate strategy targets.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills & Competencies</h2>
+        <div class="skills-grid">
+            <div class="skills-title">Tech Business Partnering:</div>
+            <div class="skills-desc">Technical Requirements Gathering, System Evaluation & Selection, User Journey Mapping, Process Flowcharting, Change Adoption & Enablement, Strategic Narrative Design</div>
+        </div>
+        <div class="skills-grid">
+            <div class="skills-title">Data & Analytics Stack:</div>
+            <div class="skills-desc">Power BI Dashboard Architecture, Python (Data Cleaning & Aggregation), SQL Data Extraction, Advanced Excel/VBA Modeling, Tableau, Data Strategy & Governance</div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
